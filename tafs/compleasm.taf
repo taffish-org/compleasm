@@ -1,0 +1,9 @@
++TOOL:compleasm
+ARGS
+    <else>
+        compleasm --help
+    <main>
+        compleasm ::*APP-ARGS*::
+RUN
+    <container:taf-compleasm-v0.2.7:ghcr.io/taffish-org/compleasm:0.2.7>
+        ::*MAIN*::

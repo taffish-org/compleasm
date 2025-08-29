@@ -1,0 +1,20 @@
+# <compleasm:0.2.7 | KaiyuanHan | 2025-08-29>
+
+usage: compleasm [-h] [-v] {download,list,protein,miniprot,analyze,run} ...
+
+positional arguments:
+  {download,list,protein,miniprot,analyze,run}
+                        Compleasm modules help
+    download            Download specified BUSCO lineages
+    list                List local or remote BUSCO lineages
+    protein             Evaluate the completeness of provided protein
+                        sequences
+    miniprot            Run miniprot alignment
+    analyze             Evaluate genome completeness from provided miniprot
+                        alignment
+    run                 Run compleasm including miniprot alignment and
+                        completeness evaluation
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
